@@ -297,8 +297,33 @@ h5.month {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
+
+input {
+    /* height: 1.5rem; */
+    font-size: 1.2rem;
+    color: #575C61;
+    border: 1px solid #575C61;
+}
+
+.button {
+    background-color: #A0B59A;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.button:hover {
+    box-shadow: -1px 3px 5px gray;
+    position: relative;
+    bottom: 2px;
+}
+
+.button:active {
+    box-shadow: 0px 1px 2px gray;
+    bottom: 0px;
+}
 
 /* ------------------------------------ */
 /* blog section */
@@ -380,8 +405,21 @@ h5.month {
     padding: 2rem;
 }
 
+.fleft {
+    text-align: center;
+}
+
+.fleft p {
+    color: #A0B59A;
+}
+
 .fmidddle {
     justify-self: center;
+}
+
+.fright {
+    justify-self: right;
+    text-align: center;
 }
 
 
@@ -481,15 +519,16 @@ h5.month {
     }
 
     h2 {
-        font-size: 1.8;
+        font-size: 1.85rem;
     }
 
     h3 {
-        font-size: 1.5;
+        font-size: 1.7rem;
+        text-align: center;
     }
 
     h4 {
-        font-size: 1.2;
+        font-size: 1.2rem;
     }
 
     .container {
@@ -526,6 +565,10 @@ h5.month {
     
     .join.container p {
         text-align: center;
+    }
+
+    .form {
+        flex-direction: column;
     }
 
 }
