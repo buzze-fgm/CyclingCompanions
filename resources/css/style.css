@@ -179,6 +179,7 @@ main {
 /* about section + events section*/
 /* ------------------------------------ */
 
+
 /* about */
 
 
@@ -195,10 +196,8 @@ main {
     gap: 0.5rem;
 }
 
-.post {
-    border: 0.5px solid gray;
-}
 
+/* Events */
 
 
 .event {
@@ -218,7 +217,6 @@ main {
 }
 
 .date {
-    /* background-color: #f3ede3; */
     padding: 0.5rem;
     min-width: 4rem;
     height: 100%;
@@ -302,7 +300,6 @@ h5.month {
 
 
 input {
-    /* height: 1.5rem; */
     font-size: 1.2rem;
     color: #575C61;
     border: 1px solid #575C61;
@@ -432,7 +429,7 @@ input {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
+    text-align: center;
 }
 
 .portfoliofooter {
@@ -445,6 +442,10 @@ input {
     font-size: 2rem;
     color: #A0B59A;
     padding: 0 0.5rem;
+}
+
+.extra {
+    width: 30%;
 }
 
 
@@ -548,7 +549,7 @@ input {
     }
 
     .mobile {
-        display: contents;
+        display: block;
     }
 
     .desktop {
