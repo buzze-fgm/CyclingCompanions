@@ -268,7 +268,37 @@ h5.month {
 .photobanner img {
     width: 20%;
     height: auto;
+    aspect-ratio: 3/2;
 }
+
+
+/* ------------------------------------ */
+/* Join banner section */
+/* ------------------------------------ */
+
+
+.join.container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #BF9850;
+    width: 100%;
+    padding: 2rem 0;
+    margin-top: 0;
+}
+.join.container h3 {
+    font-family: "carbona-variable",sans-serif;
+    font-variation-settings: 'wght' 900, 'MONO' 0, 'slnt' 0;
+    font-size: 4rem;
+    color: #967891;
+    padding-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
 
 /* ------------------------------------ */
 /* blog section */
@@ -333,6 +363,10 @@ h5.month {
 #blog .container {
     margin: 0 auto;
 }
+
+
+
+
 
 /* ------------------------------------ */
 /* footer section */
@@ -485,5 +519,13 @@ h5.month {
     .photobanner img {
         width: 33.3333333%;
     }
+
+    .join.container h3 {
+        font-size: 3rem;
+    }
     
+    .join.container p {
+        text-align: center;
+    }
+
 }
